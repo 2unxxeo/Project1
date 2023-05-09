@@ -12,7 +12,9 @@ def mul_func(n1, n2):
     result = n1 * n2
     return result
 
-
+def multiple_func(n1, n2):
+    result = n1 ** n2
+    return result
 
 
 ## 전역변수
@@ -29,4 +31,7 @@ print(num1, '-', num2, '=', res)
 
 res = mul_func(num1, num2)
 print(num1, 'x', num2, '=', res)
+
+res = multiple_func(num1, num2)
+print(num1, 'xx', num2, '=', res)
 
